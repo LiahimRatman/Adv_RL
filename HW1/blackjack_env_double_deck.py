@@ -7,6 +7,8 @@ from card_service import is_natural, is_bust, cmp, score, sum_hand, usable_ace, 
 
 
 class Deck:
+    # Using Hi-Opt II Systems
+    # https://www.gamblingsites.org/casino/blackjack/card-counting/hi-opt/
     MIN_VALUE = -32
     
     def __init__(self):
